@@ -1,0 +1,41 @@
+/* Addons */
+
+i {
+  margin-left: 30px;
+}
+
+body{
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#soundImage{
+
+  height: "100vh";
+  display: "flex";
+
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  
+  color: #fff;
+  border-color: #00ff00;
+  background-color: #00ff00;
+
+}
+
+.btn-manage-link{
+  padding : 0;
+  
+}
+
+.btn-manage-link:hover{
+  color : red
+}
+
+/* th, td {
+  padding: 0;
+} */
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.8;
+}
